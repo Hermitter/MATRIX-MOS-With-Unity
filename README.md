@@ -4,7 +4,7 @@ This MOS app allow you to send the sensor data from your MATRIX to a unity clien
 
 This connection uses Socket.io as a server to send data. The 
 <a href="https://github.com/Hermitter/MATRIX-Unity-Sensor-Utility-App/blob/master/MATRIX-Unity-Project/Assets/MATRIX.cs">MATRIX.cs</a>
-file allows you to pick which sensors you want.
+file requests and saves sensor data.
 - Unity Socket.io Library: https://www.assetstore.unity3d.com/en/#!/content/21721
 - IP address & sensors are set with the SocketIO game object
 
