@@ -1,9 +1,5 @@
-This is your app folder. Please only change app.js and config.yaml.
+This app creates a connection using Socket.io that connects to a unity client. Once connected, all sensor data can be read in your unity project in real time. The app.js file allows you to configure the port(Default:6001) and speed at which the sensors are read.
 
-Do not modify index.js.
+## MATRIX Documentation
 
-You may add packages via `npm`, they will be installed when the application is deployed to a device. 
-
-## Developer Documentation
-
-http://github.io/matrix-io/matrix-documentation/
+https://matrix-io.github.io/matrix-documentation/
