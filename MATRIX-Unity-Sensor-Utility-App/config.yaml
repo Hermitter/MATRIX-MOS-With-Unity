@@ -1,0 +1,17 @@
+# do not touch this line
+configVersion: 2
+
+name: MATRIX-Unity-Sensor-Utility-App
+description: Use the MATRIX as a unity controller
+keywords: ''
+shortName: matrix-game-controller
+displayName: Matrix Game Controller
+
+sensors:
+  - gyroscope
+  - temperature
+  - humidity
+  - pressure
+  - uv
+  - magnetometer
+  - accelerometer
