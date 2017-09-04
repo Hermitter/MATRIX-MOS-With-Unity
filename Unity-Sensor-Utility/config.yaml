@@ -1,0 +1,17 @@
+# do not touch this line
+configVersion: 2
+
+name: Unity-Sensor-Utility
+description: Send MATRIX sensor data to a unity client
+keywords: ''
+shortName: unity-sensor-utility
+displayName: Unity Sensor Utility
+
+sensors:
+  - gyroscope
+  - temperature
+  - humidity
+  - pressure
+  - uv
+  - magnetometer
+  - accelerometer

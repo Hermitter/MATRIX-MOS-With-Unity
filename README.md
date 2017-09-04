@@ -1,5 +1,7 @@
 # MATRIX-Unity-Sensor-Utility-App
-This MOS app allow you to send the sensor data from your MATRIX to a unity client.
+This project contains two important folders. The first folder, Unity-Assets, goes into your exsisting unity project. The second file, Unity-Sensor-Utility, is a MOS app that is installed on your MATRIX device. 
+
+The MOS app allow you to send the sensor data from your MATRIX to a unity client.
 - Sensors: https://matrix-io.github.io/matrix-documentation/matrix-os/reference/sensors/#magnetometer
 
 This connection uses Socket.io as a server to send data. The 
