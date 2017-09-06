@@ -7,12 +7,11 @@ console.log('server started');
 ///////////////////////////////////
 //Options for sensor refresh rates(ms)
 var fastRefresh = {
-	refresh: 50,
+	refresh: 100,
 	timeout: 15000
 }
-//!!!edit to be slower!!!\\
 var slowRefresh = {
-	refresh: 50,
+	refresh: 2000,
 	timeout: 15000
 }
 
@@ -23,7 +22,7 @@ matrix.init('gyroscope', fastRefresh).then(function(data){
 });
 //UV
 var uvData = {};
-matrix.init('uv', fastRefresh).then(function(data){
+matrix.init('uv', slowRefresh).then(function(data){
 	uvData = data;
 });
 //Temperature
@@ -38,7 +37,7 @@ matrix.init('humidity', slowRefresh).then(function(data){
 });
 //Pressure
 var pressureData = {};
-matrix.init('pressure', fastRefresh).then(function(data){
+matrix.init('pressure', slowRefresh).then(function(data){
 	pressureData = data;
 });
 //Accelerometer
