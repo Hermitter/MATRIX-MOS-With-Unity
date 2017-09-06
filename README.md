@@ -1,4 +1,6 @@
 # MATRIX-Unity-Sensor-Utility-App
+![Gyroscope Demo](https://thumbs.gfycat.com/HappyThickBassethound-size_restricted.gif)
+# Overview
 This project contains two important folders. The first folder, Unity-Assets, goes into your exsisting unity project. The second file, Unity-Sensor-Utility, is a MOS app that is installed on your MATRIX device. 
 
 The MOS app allow you to send the sensor data from your MATRIX to a unity client.
