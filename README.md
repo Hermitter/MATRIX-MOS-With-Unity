@@ -13,4 +13,4 @@ file contains options to pick the sensors you want to use. Once attached to a ga
 - IP address is set with the SocketIO game object
 
 # Expanding
-Although this app only sends sensor data, it can easily be expanded to read and control every component of your MATRIX from Unity. Feel free to use these files in any way to help you create your unity project.
+Although this app only sends sensor data, it can easily be expanded to read and control every component of your MATRIX from Unity. Feel free to use these files in any way to help you with your project.
