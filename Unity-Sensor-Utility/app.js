@@ -5,49 +5,44 @@ console.log('server started');
 ////////////////////////////////////
 // Config & Start MATRIX Sensors
 ///////////////////////////////////
-//Options for sensor refresh rates(ms)
-var fastRefresh = {
+var options = {
 	refresh: 100,
-	timeout: 15000
-}
-var slowRefresh = {
-	refresh: 2000,
 	timeout: 15000
 }
 
 //Gyroscope
 var gyroscopeData = {};
-matrix.init('gyroscope', fastRefresh).then(function(data){
+matrix.init('gyroscope', options).then(function(data){
 	gyroscopeData = data;
 });
 //UV
 var uvData = {};
-matrix.init('uv', slowRefresh).then(function(data){
+matrix.init('uv', options).then(function(data){
 	uvData = data;
 });
 //Temperature
 var temperatureData = {};
-matrix.init('temperature', slowRefresh).then(function(data){
+matrix.init('temperature', options).then(function(data){
 	temperatureData = data;
 });
 //Humidity
 var humidityData = {};
-matrix.init('humidity', slowRefresh).then(function(data){
+matrix.init('humidity', options).then(function(data){
 	humidityData = data;
 });
 //Pressure
 var pressureData = {};
-matrix.init('pressure', slowRefresh).then(function(data){
+matrix.init('pressure', options).then(function(data){
 	pressureData = data;
 });
 //Accelerometer
 var accelerometerData = {};
-matrix.init('accelerometer', fastRefresh).then(function(data){
+matrix.init('accelerometer', options).then(function(data){
 	accelerometerData = data;
 });
 //Magnetometer
 var magnetometerData = {};
-matrix.init('magnetometer', slowRefresh).then(function(data){
+matrix.init('magnetometer', options).then(function(data){
 	magnetometerData = data;
 });
 
