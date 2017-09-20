@@ -9,7 +9,7 @@ Assuming your MOS app is running, click on the "SocketIO" Game Object. This obje
 should have a url field to input the ip of your MATRIX device
 - ws://YOUR_PI_IP:PORT/socket.io/?EIO=4&transport=websocket
 
-The "SocketIO" Game Object will also have boxes that you need to check for the sensors you want to use.
+The "SocketIO" Game Object will also have boxes that you need to check for the sensors you want to use. If checked, selected sensors will log their values into the unity console. If needed, you can comment this out in the MATRIX.cs file.
 
 # Usage
 ```
@@ -43,5 +43,8 @@ MATRIX.Accelerometer.z //float
 MATRIX.Magnetometer.x //float
 MATRIX.Magnetometer.y //float
 MATRIX.Magnetometer.z //float
+
+//Example
+float pitch = MATRIX.Gyroscope.pitch
 
 ```
