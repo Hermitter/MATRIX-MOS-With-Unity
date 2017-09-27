@@ -6,7 +6,7 @@ console.log('server started');
 // Config & Start MATRIX Sensors
 ///////////////////////////////////
 var options = {
-	refresh: 100,
+	refresh: 50,
 	timeout: 15000
 }
 
