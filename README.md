@@ -2,7 +2,9 @@
 ![Gyroscope Demo](https://thumbs.gfycat.com/HappyThickBassethound-size_restricted.gif)
 # Overview
 This project contains two important folders. The first folder, Unity-Assets, goes into your exsisting unity project. The second file, Unity-Sensor-Utility, is a MOS app that is installed on your MATRIX device. 
-- Guide: https://www.element14.com/community/community/raspberry-pi/blog/2017/09/27/matrix-creator-app-to-read-sensors-in-unity
+- Guides: 
+  - Element14: https://www.element14.com/community/community/raspberry-pi/blog/2017/09/27/matrix-creator-app-to-read-sensors-in-unity
+  - Hackster: https://www.hackster.io/matrix-labs/read-matrix-creator-sensors-in-unity-cf177c
 
 The MOS app allow you to send the sensor data from your MATRIX to a unity client.
 - Sensors: https://matrix-io.github.io/matrix-documentation/matrix-os/reference/sensors
